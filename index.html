@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Estantería de Lecturas</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    📚 Mi Estantería de Lecturas
+  </header>
+
+  <main>
+    <div class="shelf" id="shelf">
+      <!-- Los libros aparecerán aquí -->
+    </div>
+
+    <form id="addBookForm">
+      <h2>Añadir un libro</h2>
+      <label for="title">Título:</label>
+      <input type="text" id="title" required />
+
+      <label for="image">URL de la imagen de portada:</label>
+      <input type="url" id="image" required />
+
+      <button type="submit">Añadir a la estantería</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
